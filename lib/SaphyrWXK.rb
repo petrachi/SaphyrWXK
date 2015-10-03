@@ -1,5 +1,8 @@
 require "SaphyrWXK/version"
 
 module SaphyrWXK
-  # Your code goes here...
+  module Decorator
+    require "SaphyrWXK/decorator/base"
+    require "SaphyrWXK/decorator/extends"
+  end
 end
